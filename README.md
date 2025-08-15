@@ -49,9 +49,3 @@ exports['gabjek-boilerplate-dev']:OpenPanel()
 
 ## Config
 See `shared/config.lua`. Toggle features (ox_*) and adjust limits/teleports/locales.
-
-## CI & Release
-- CI: Luacheck + Busted
-- Release ZIP on tag `v*`
-
-License: MIT
