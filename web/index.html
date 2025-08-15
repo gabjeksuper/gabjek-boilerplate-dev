@@ -1,0 +1,30 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>gabjek – Dev Panel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="panel" class="panel hidden">
+    <div class="panel-header">
+      <h1 id="title">Dev Panel</h1>
+      <p id="subtitle">Secure boilerplate</p>
+      <button id="close">×</button>
+    </div>
+    <div class="panel-body">
+      <div class="row">
+        <input id="msg" placeholder="Type a message..." />
+        <button id="send">🔔 <span id="btnlabel">Send notification</span></button>
+      </div>
+      <div class="row">
+        <button id="progress">⏳ Progress demo</button>
+      </div>
+      <p class="hint">Press the key again to close or click ×</p>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
