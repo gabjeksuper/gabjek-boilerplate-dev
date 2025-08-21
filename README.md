@@ -1,4 +1,4 @@
-# gabjek-boilerplate-dev
+# Gabjek Boilerplate Dev - FiveM
 
 Secure, minimal boilerplate to teach devs how to build FiveM scripts. Everything that changes state lives server-side, behind ACE permissions, rate limits, and validation. Use this as a base for dev menus, admin tools, mini-games, shops, etc., and spin out new resources following the same pattern.
 
